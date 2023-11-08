@@ -1,0 +1,11 @@
+
+name: rag_demo2
+channels:
+  - defaults
+dependencies:
+  - python=3.11  # As of my last update, Python 11 is not released; using the latest stable release, which is 3.11
+  - pip
+  - pip:
+    - langchain
+    - sentence-transformers
+    - pypdf
